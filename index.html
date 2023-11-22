@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=League+Spartan:wght@700&family=Manrope:wght@800&family=PT+Sans&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Simple Color Changing Calculator app</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section id="main">
+  <div id="topNumbers">
+    <span>1 2 3</span>
+  </div>
+  <section id="topSection">
+    <span class="calc">calc</span>
+    <span class="theme">THEME</span>
+    <span class="slider">
+      <input type="range" min="1" max="3" value="1" class="slider-input" id="mySlider">
+    </span>
+    
+    </section>
+
+  <div id="output">
+    <p id="outputNumber"></p>
+  </div>
+
+  <div id="mainButtons">
+    <span class="selectButton buttonColor">7</span>
+    <span class="selectButton buttonColor">8</span>
+    <span class="selectButton buttonColor">9</span>
+    <span class="selectButton delButton">DEL</span>
+    <span class="selectButton buttonColor">4</span>
+    <span class="selectButton buttonColor">5</span>
+    <span class="selectButton buttonColor">6</span>
+    <span class="selectButton buttonColor">+</span>
+    <span class="selectButton buttonColor">1</span>
+    <span class="selectButton buttonColor">2</span>
+    <span class="selectButton buttonColor">3</span>
+    <span class="selectButton buttonColor">-</span>
+    <span class="selectButton buttonColor">.</span>
+    <span class="selectButton buttonColor">0</span>
+    <span class="selectButton buttonColor">/</span>
+    <span class="selectButton buttonColor">x</span>
+    <div id="bottomButtons">
+      <span class="selectButton resetButton">RESET</span>
+      <span class="selectButton equalButton">=</span>
+    </div>
+</section>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
